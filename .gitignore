@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+*.sqlite3
+.vscode/
+*.egg-info/
+dist/
+build/
+docker-compose.override.yml
+*.local
+.idea/
+*.db
+venv/
