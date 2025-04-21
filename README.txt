@@ -24,6 +24,14 @@ A lightweight FastAPI-based microservice that simulates audio file analysis and 
     ```bash
     docker build -t audio-analyzer .
     docker run -p 8000:8000 audio-analyzer
+
+	Then open your browser:
+
+    http://127.0.0.1:8000/docs — this gives you the Swagger UI (your automatic API interface!)
+
+    http://127.0.0.1:8000/health — just a quick health check
+
+    POST to /analyze-audio/ via the Swagger UI to upload a dummy file
     ```
 
 4. Visit the API docs at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
